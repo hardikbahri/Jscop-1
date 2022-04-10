@@ -65,7 +65,11 @@ const data = [
     question: 'What is JSCOP?',
     Answer:
 <<<<<<< HEAD
+<<<<<<< HEAD
           'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming competitions to fun ideathons, trivia quizzes, webinars and a lot more. It also includes mentoring sessions that gives students a wide platform to interact, connect and innovate.'
+=======
+          'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming  competitions to fun ideathons, ,trivia quizzes,webinars  and a lot more.It also includes mentoring sessions that gives students a wide platform to interact,connect and innovate.'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
 =======
           'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming  competitions to fun ideathons, ,trivia quizzes,webinars  and a lot more.It also includes mentoring sessions that gives students a wide platform to interact,connect and innovate.'
 >>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
@@ -74,7 +78,11 @@ const data = [
     question: 'How to Register?',
     Answer:
 <<<<<<< HEAD
+<<<<<<< HEAD
           'The registration can be done on the official JSCOP website'
+=======
+          'The registration can be done on the official jscop website'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
 =======
           'The registration can be done on the official jscop website'
 >>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
@@ -83,12 +91,15 @@ const data = [
     question: 'What is the Eligibility Criteria?',
     Answer:
 <<<<<<< HEAD
+<<<<<<< HEAD
           'Anyone can register. We welcome everyone on the ride to multiverse packed with fun quizzes, cp events, ideathons and webinars.'
   },
   {
     question: 'Will the Event Be Virtual, Offline or Hybrid Mode?',
     Answer:
           'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events in the offline mode at our college .'
+=======
+          'Anyone can register .We welcome everyone on the ride to multiverse packed with fun quizzes,cp events,ideathons and webinars.'
 =======
           'Anyone can register .We welcome everyone on the ride to multiverse packed with fun quizzes,cp events,ideathons and webinars.'
   },
@@ -99,10 +110,20 @@ const data = [
 >>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
   },
   {
+    question: 'Will the event be VIRTUAL,OFFLINE or HYBRID mode?',
+    Answer:
+<<<<<<< HEAD
+          'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events  in the offline mode at our college .'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
+  },
+  {
     question: 'What is the Event Venue?',
     Answer:
 <<<<<<< HEAD
           'The offline events of JSCOP 4.0 will be conducted at our college Jaypee Institute of Information Technology.'
+=======
+          'The offline events of JSCOP 4.0 will be conducted  at our college Jaypee Institute  of Information Technology.'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
 =======
           'The offline events of JSCOP 4.0 will be conducted  at our college Jaypee Institute  of Information Technology.'
 >>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
