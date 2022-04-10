@@ -1,0 +1,13 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: #0b1e38; */
+    /* background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png); */
+    color:transparent; 
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(185,215,255,.5);
+    font-family: "Neue Montreal"
+}

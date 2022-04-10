@@ -1,0 +1,215 @@
+.Team{
+    /* background-color: #0b1e38; */
+    padding-top: 100px;
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
+    
+}
+ section[type=grid] {
+    padding-top: 100px;
+    margin-bottom: -20px;
+}
+ /* section[type=grid] .grid-header {
+    margin-bottom: 0;
+} */
+@media (min-width: 61.25em)
+{section[type=grid] .grid-header {
+    margin-bottom: 70px;
+}}
+/* @media (max-width: 68.78em)
+{ section[type=grid] .center {
+    padding-left: 30px;
+    padding-right: 30px;
+}} */
+
+section[type=grid] .grid-header {
+    margin-bottom: 0px;
+}
+section[type=grid] .grid-list {
+    padding-bottom: 0;
+}
+
+/* @media (min-width: 68.24em)
+{
+ section[type=grid] .center {
+    padding-left: 94px;
+    padding-right: 94px;
+}
+} */
+@media (max-width: 46.24em)
+{ section[type=grid] .grid-item {
+    width: 100%;
+}}
+@media (max-width: 61.24em)
+{ section[type=grid] .grid-item {
+    width: 43.333% !important;
+    justify-content: center;
+    align-items: center;
+}}
+
+@media (min-width: 46.25em)
+{section[type=grid] .grid-item {
+    width: 50%;
+    padding-left: 17px;
+    padding-right: 17px;
+}}
+
+ 
+@media (min-width: 61.25em)
+{section[type=grid] .grid-item {
+    width: 33.3333333333%;
+}}
+
+ section[type=grid] .grid-item {
+    margin-bottom: 60px;
+    padding-bottom: 0;
+    width: 22%;
+    -webkit-transform: none;
+    transform: none;
+    padding-right:20px;
+}
+/* @media (min-width: 61.25em)
+{section[type=grid] .grid-item:nth-child(3n+2) {
+    -webkit-transform: translateY(100px);
+     transform: translateY(100px);
+}} */
+.section-title {
+    font-family: 'California',Times,Georgia,serif;
+    font-weight: 500;
+    font-size: 3.75rem;
+    line-height: 1;
+    /* color: #fff; */
+    margin-bottom: 60px;
+}
+
+section[type=grid] .grid-list {
+    position: relative;
+    /* margin-right: -17px;
+    margin-left: -17px; */
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 3;
+    /* padding-bottom: 140px; */
+}
+/* @media (min-width: 61.25em)
+{section[type=grid] .grid-item:nth-child(3n+3) {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+}} */
+
+[in-view=fade-up] {
+    transition: opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    will-change: transform,opacity;
+}
+section[type=grid] .grid-picture {
+    position: relative;
+    width: 100%;
+}
+.wave-container {
+    position: relative;
+    display: inline-block;
+}
+section[type=grid] .grid-picture img {
+    display: block;
+    width: 100%;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+ section[type=grid] .grid-title {
+    margin-top: -50px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 2.1875rem !important;
+}
+
+.backgroundcliptext .section-subhead>span, .backgroundcliptext .section-subtitle>span {
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-subhead+.section-title {
+    margin-top: 15px;
+}
+@media (max-width: 61.24em)
+{.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}}
+section[type=grid] .grid-title {
+    font-family:'California',Times,Georgia,serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    text-align: left;
+    text-shadow: 0 0 42px #2f9d9c;
+    color: #fff;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-11.5deg);
+    transform: skewY(-11.5deg);
+    z-index: 5;
+}
+ section[type=grid] .grid-subtitle {
+    padding-right: 0;
+    padding-left: 46px;
+    margin-top: 20px;
+    text-align: left;
+}
+main[page=about] section[type=grid] .grid-item:nth-child(4n+2) [in-view=fade-up] {
+    transition-delay: .1s;
+}
+section[type=grid] .grid-subtitle {
+    font-weight: 700;
+    font-size: .7625rem;
+    line-height: 2.4;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: rgba(185,215,255,.5);
+    /* padding-left: 100px;
+    padding-right: 30px; */
+    min-height: 43.2px;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink {
+    0%{
+        text-shadow: 0px 4px 26px #da9282;
+    }
+    50%{
+        text-shadow: none;
+    }
+    100%{
+        text-shadow: 0px 4px 26px #da8682;
+    }
+}
+.grid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 61.24em)
+{section[type=grid] .grid-subtitle {
+    font-size: .975rem;
+    padding-left: 0;
+    padding-right: 0;
+}}

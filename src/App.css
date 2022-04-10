@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  /* font-family: Radikal,Helvetica,Arial,sans-serif; */
+  font-weight: 300;
+  font-style: normal;
+  /* font-size: 1rem; */
+  line-height: 2;
+  /* background-color: #0b1e38; */
+  /* color: rgba(185,215,255,.5); */
+}
+
+:root{
+  --accent-primary-default: #0079F2;
+  --background-root: #0E1525;
+  --white:#FCFCFC;
+}
+
+a:active{
+  text-shadow: 2px 2px 10px var(--accent-primary-default);
+}
+.u-visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+section[type] .center {
+  position: relative;
+  z-index: 50;
+}
+.center {
+  max-width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-subhead, .section-subtitle {
+  font-weight: 500;
+  color: #00b69d;
+  font-size: 1rem;
+  line-height: 2.6;
+  letter-spacing: .4em;
+  text-transform: uppercase;
+}
+.nvclass{
+  margin-right: -26%;
+}
+/* .App{
+  height: auto;
+    width: 100%;
+    background-color: #0b1e38;
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
+}
+
+.App {
+  background-image:  url(../src/Components/assets/home/background-home-mobile.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 35rem) {
+  .App {
+      background-position: center center;
+      background-image:  url(../src/Components/assets/home/background-home-mobile.jpg);
+  }
+}
+
+@media (min-width: 45rem) {
+  .App {
+      background-image:  url(../src/Components/assets/home/background-home-desktop.jpg);
+  }
+}  */

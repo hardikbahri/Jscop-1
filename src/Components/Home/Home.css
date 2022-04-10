@@ -1,0 +1,244 @@
+#home {
+    margin: 0;
+    padding: 0;
+    background: url(./images/back.jpg);
+    background-repeat: no-repeat;
+     height: 110vh;
+    background-size:cover;
+    width:100%;
+    overflow: hidden;
+    margin-top:-170px;
+    line-height: 1.5;
+    min-height: 100vh;
+    
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    
+    overflow-x: hidden;
+}
+
+button.mv {
+    /* margin-top: 30px; */
+    background: none;
+    color: #35e5fd;
+    font-size: 18px;
+    border: 2px solid #35e5fd;
+    /* margin-top: 100px; */
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+}
+.p-1 {
+    width: 150px;
+    /* margin-top: 50px; */
+    margin-left: -390px;
+    animation: rotate 50s linear infinite;
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+    from{
+        transform: rotate(-360deg);
+    }
+}
+
+.jscop{
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-family: system-ui;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    animation: blink 2s linear infinite;
+    position: absolute;
+    margin-bottom: 40%;
+}
+
+
+@keyframes blink {
+    0%{
+        text-shadow: 0px 4px 26px #c582da;
+    }
+    50%{
+        text-shadow: none;
+    }
+    100%{
+        text-shadow: 0px 4px 26px #c582da;
+    }
+}
+
+.m {
+    width: 150px;
+    top: 35px;
+    /* position: absolute; */
+    margin-left: 50%;
+    right: 50px;
+    animation: float 6s ease-in-out infinite;
+}
+
+@media(min-width:800px){
+    .m{
+        width: 250px;
+        top: 50px;
+
+    }
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#object2 {
+    width: 100px;
+    height: 100px;
+    background: url(./images/ufo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 200;
+    animation: animation2 100s infinite;
+}
+@keyframes animation2 {
+    0%{
+        left: 0;
+        top: 100;
+    }
+    25%{
+        left: 1000px;
+        top: 200px;
+        width: 75px;
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+    50%{
+        left: 1000px;
+        top: 500px;
+        width: 50px;
+    }
+    75%{
+        left: 2000px;
+        top: 1000px;
+        width: 20px;
+    }
+    100%{
+        left: 0;
+        width: 10px;
+        top: 1000;
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+}
+#main{
+    overflow:hidden;
+    margin-top:150px;
+}
+
+.p-3 {
+    /* position: absolute; */
+    width: 729px;
+    margin-top:5%;
+    /* margin-left: 0; */
+    
+    animation: rotate 50s linear infinite;
+    z-index:0;
+}
+@media (min-width: 700px) {
+    .p-3{
+    margin-top: 8%;
+    margin-left: -120%;
+        
+    }
+
+}
+
+
+@media (max-width: 1080px) {
+    
+    #home{
+        height:75vh;
+    }
+    .jscop{
+        margin-bottom: 65%;
+    }
+   
+
+}
+@media (max-width: 768px) {
+    
+    #home{
+        height:105vh;
+
+    }
+    .jscop{
+        margin-bottom: 65%;
+    }
+   
+
+}
+
+@media (max-width: 576px) {
+    .m{
+        margin-top:-201px;
+        width:199px;
+        top:0;
+    }
+    .p-1{
+        margin-top:50px;
+    }
+    .p-3{
+        margin-top:86%;
+    }
+    #home{
+        height:120vh;
+    }
+    #main{
+        margin-top:176px;
+    }
+    .jscop{
+        margin-bottom: 0%;
+    }
+
+}
+
+@media (max-width: 376px) {
+    
+    #home{
+        height:165vh;
+    }
+    .jscop{
+        margin-bottom: 55%;
+    }
+   
+
+}
+
+
+#layout { 
+    /* color:transparent;  */
+  
+    /* background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png); */
+    /* background-repeat: repeat-x, repeat-x repeat-y; */
+    transform:translate3D(0em, 0em, 0);
+    animation: stars 21s ease;
+    padding-bottom: 50px; 
+    
+  }
+  .stars {
+    z-index: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  
