@@ -36,22 +36,14 @@ function Navbar() {
               Speaker
             </a>
           </li>
-          <li>
-            <a
-              className="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="/#timeline"
-            >
-             Timeline
-            </a>
-          </li>
-          <li>
+          {/* <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
               href="/#faq"
             >
              Faqs
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
@@ -81,9 +73,17 @@ function Navbar() {
           <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="footer"
+              href="/#contactus"
             >
              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              className="ff-sans-cond uppercase text-white letter-spacing-2"
+              href="http://jscopmemories.co.in/"
+            >
+            Merch
             </a>
           </li>
         </ul>

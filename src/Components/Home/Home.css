@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Righteous&display=swap");
+
 #home {
     margin: 0;
     padding: 0;
@@ -17,13 +19,14 @@
     overflow-x: hidden;
 }
 
-button.mv {
-    /* margin-top: 30px; */
+/* button.mv1 {
+    position: absolute;
     background: none;
     color: #35e5fd;
     font-size: 18px;
     border: 2px solid #35e5fd;
-    /* margin-top: 100px; */
+    margin-top: -160px; 
+    margin-left: -180px;
     border-radius: 40px;
     height: 50px;
     width: 150px;
@@ -32,11 +35,37 @@ button.mv {
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     cursor: pointer;
+}  */
+
+button.mv2 {
+   position: absolute;
+   background: none;
+   color: #35e5fd;
+   font-size: 18px;
+   border: 2px solid #35e5fd;
+   margin-top: -21%; 
+   margin-left: -75px;
+   border-radius: 40px;
+   height: 50px;
+   width: 150px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+   cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(45deg, #35e5fd 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
 }
+.mv2:hover {
+  background-position: 0;
+} 
 .p-1 {
     width: 150px;
-    /* margin-top: 50px; */
-    margin-left: -390px;
+    margin-bottom: 150%;
+    margin-left: -116%;
     animation: rotate 50s linear infinite;
 }
 @keyframes rotate{
@@ -50,15 +79,32 @@ button.mv {
 
 .jscop{
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     text-transform: uppercase;
-    color: #fcfcfc;
-    font-family: system-ui;
+     color: #fcfcfc;
+    /* font-family: system-ui; */
     letter-spacing: 3px;
     word-spacing: 5px;
-    animation: blink 2s linear infinite;
-    position: absolute;
-    margin-bottom: 40%;
+    /* animation: blink 2s linear infinite; */
+     position: absolute;
+    margin-bottom: 32%;
+    background-color: transparent;
+}
+.dates{
+    font-size: 35px;
+}
+.landing__Heading{
+    /* height:15em; */
+    margin-bottom:-10%;
+    font-family: "Righteous", cursive;
+    background: url("https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif") center center no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    letter-spacing: 10px;
+    background-size: cover;
+    /* margin: 0px; */
+    color: transparent;
 }
 
 
@@ -75,18 +121,19 @@ button.mv {
 }
 
 .m {
-    width: 150px;
+    width: 150px !important;
     top: 35px;
-    /* position: absolute; */
+    position: absolute;
     margin-left: 50%;
     right: 50px;
     animation: float 6s ease-in-out infinite;
 }
 
+
 @media(min-width:800px){
     .m{
-        width: 250px;
-        top: 50px;
+        width: 21%;
+        top: 24%;
 
     }
 }
@@ -157,11 +204,18 @@ button.mv {
 }
 @media (min-width: 700px) {
     .p-3{
-    margin-top: 8%;
-    margin-left: -120%;
+    margin-top: 89%;
+    margin-left: -112%;
         
     }
+    
 
+}
+@media (min-width: 1080px) {
+.jscop{
+    margin-bottom: 25%;
+
+}
 }
 
 
@@ -170,12 +224,36 @@ button.mv {
     #home{
         height:75vh;
     }
-    .jscop{
-        margin-bottom: 65%;
+    
+    .landing__Heading{
+        font-size: 6rem;
     }
    
 
 }
+#pulse:hover,
+#pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+#pulse {
+    --color: #ef6eae;
+    --hover: #ef8f6e;
+  }
 @media (max-width: 768px) {
     
     #home{
@@ -183,8 +261,16 @@ button.mv {
 
     }
     .jscop{
-        margin-bottom: 65%;
+        /* margin-bottom: 65%; */
     }
+    .landing__Heading{
+        font-size: 6rem;
+        line-height: 90px;
+    }
+    .dates{
+        margin-top: 12%;
+    }
+    
    
 
 }
@@ -192,34 +278,39 @@ button.mv {
 @media (max-width: 576px) {
     .m{
         margin-top:-201px;
-        width:199px;
-        top:0;
+        width:154px;
+        top:312px;
     }
     .p-1{
         margin-top:50px;
     }
     .p-3{
-        margin-top:86%;
+        margin-top:-30%;
     }
     #home{
-        height:120vh;
+        height:110vh;
     }
     #main{
         margin-top:176px;
     }
     .jscop{
-        margin-bottom: 0%;
+        margin-bottom:47%;
+        max-height:50vh
+    }
+    .dates{
+        margin-top: 12%;
     }
 
 }
 
-@media (max-width: 376px) {
+
+@media (max-width: 399px) {
     
     #home{
         height:165vh;
     }
     .jscop{
-        margin-bottom: 55%;
+        margin-bottom: 0%;
     }
    
 
