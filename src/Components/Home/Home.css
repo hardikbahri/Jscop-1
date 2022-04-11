@@ -42,7 +42,7 @@ button.mv2 {
    background: none;
    color: #35e5fd;
    font-size: 18px;
-   font-weight: 500;
+   font-weight: git status00;
    border: 2px solid #35e5fd;
    margin-top: -21%; 
    margin-left: -75px;
@@ -93,7 +93,7 @@ button.mv2 {
 }
 .dates{
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 800;
 }
 .landing__Heading{
     /* height:15em; */
