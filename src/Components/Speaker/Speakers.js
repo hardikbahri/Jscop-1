@@ -18,13 +18,11 @@ function Speakers() {
                 
                              {/*              COMING SOON            */}
 
-                <section type="whats-new" in-view="fade-up" className="in-view">
+                {/* <section type="whats-new" in-view="fade-up" className="in-view"> */}
                 <header className="section-header-comming-soon">
-                    <div className="center">
                         <h2 className="section-title-comming-soon">
                             Coming Soon<br />
                         </h2>
-                    </div>
                 </header>
 
                             {/*              COMING SOON            */}
@@ -59,7 +57,7 @@ function Speakers() {
                             </div>
                         </div>
                     </div> */}
-                </section>
+                {/* </section> */}
             </section>
         </div>
         );

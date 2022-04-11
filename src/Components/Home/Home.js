@@ -49,7 +49,7 @@ function Home() {
 
       <Team />
       <Faq />
-      {/* <SponsorsMain /> */}
+      <SponsorsMain />
       <Footer />
     </>
   );

@@ -89,13 +89,14 @@ section[type=whats-new] .section-title {
     text-shadow: 0 0 42px #2f9d9c;
 }
 
-section[type=whats-new] .section-title-comming-soon {
-    font-family: California,Times,Georgia,serif;
-    font-weight: 500;
-    color: #fff;
-    font-size: 5.5rem;
-    line-height: 1.05;
-    /* text-shadow: 0 0 42px #2f9d9c; */
+ .section-title-comming-soon {
+    font-family: Cedarville Cursive;
+    font-weight: 800;
+    color: #ffff;
+    font-size: 4.5rem;
+    /* line-height: 1.05; */
+    text-shadow: 0 0 42px #2f9d9c;
+    justify-content: center;
 }
 
 .section-subhead+.section-title {

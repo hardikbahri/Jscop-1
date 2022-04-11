@@ -10,7 +10,7 @@ function Team() {
             <p className="section-subhead">
               <span>Meet &amp; Greet</span>
             </p>
-            <h2 className="section-title">the Organising team</h2>
+            <h2 className="section-title">the Organising <br/> team</h2>
           </div>
         </header>
 

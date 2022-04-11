@@ -3,7 +3,7 @@ import React from "react";
 import "./Footer.css";
 import logo from './logo-white.png'
 
-import { FaYoutube , FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+import { FaYoutube ,FaInstagram, FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -22,6 +22,7 @@ function Footer() {
                         <li><a href="https://www.youtube.com/channel/UCDR-ExLpXmcMkT0RHILMKPw/featured"> <FaYoutube size = "1.5rem" /> </a></li>
                         <li><a href="https://www.linkedin.com/company/jiitopticachapter"> <FaLinkedin size = "1.5rem" /> </a></li>
                         <li><a href="https://twitter.com/jiitoptica"> <FaTwitter size = "1.5rem" /> </a></li>
+                        <li><a href="https://www.instagram.com/jiitopticachapter/"> <FaInstagram size = "1.5rem" /> </a></li>
                     </ul>
                 </div>
             </div>
