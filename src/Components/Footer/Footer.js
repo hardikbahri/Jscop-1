@@ -1,6 +1,7 @@
 // import 'font-awesome/css/font-awesome.min.css'; 
 import React from "react";
 import "./Footer.css";
+import logo from './logo-white.png'
 
 import { FaYoutube , FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
 
@@ -10,13 +11,7 @@ function Footer() {
         <footer>
         <div className="footer-content">
             <div className="footer-content-left">
-                <h3>JSCOP 4.0</h3>
-                <p className="footer-content-left-header">
-                    It is the annual flagship event of JIIT OPTICA which includes a 
-                    plethora of events ranging from programming competitions to fun ideathons, 
-                    trivia quizzes, webinars and a lot more. It also includes mentoring sessions 
-                    that gives students a wide platform to interact, connect and innovate.
-                </p>
+            <img src={logo} alt="logo" className="logo-footer" />
                 <div className="footer-content-left-socials">
                     <br />
                     <p>
