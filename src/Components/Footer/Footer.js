@@ -7,7 +7,7 @@ import { FaYoutube ,FaInstagram, FaFacebook, FaTwitter, FaLinkedin} from "react-
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer" id="contactus">
         <footer>
         <div className="footer-content">
             <div className="footer-content-left">
