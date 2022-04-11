@@ -7,7 +7,7 @@ function SponsorsMain() {
       <header className="section-header">
           <div className="center">
             <h2 className="section-title">
-             Our Collaborations<br />
+             Our<br/> Collaborations<br />
              
             </h2>
           </div>
