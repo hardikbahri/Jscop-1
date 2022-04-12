@@ -74,10 +74,7 @@ const data = [
     Answer:
           'Anyone can register. We welcome everyone on the ride to multiverse packed with fun quizzes, cp events, ideathons and webinars.'
   },
-  {
-    question: 'Will the Event Be Virtual, Offline or Hybrid Mode?',
-    Answer: 'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events in the offline mode at our college .'
-  },
+
   {
     question: 'Will the event be VIRTUAL,OFFLINE or HYBRID mode?',
     Answer: 'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events  in the offline mode at our college .'
