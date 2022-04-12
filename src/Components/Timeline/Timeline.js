@@ -28,7 +28,7 @@ function Timeline() {
             <header className="timiline-header-comming-soon">
                 <div className="center">
                     <h2 className="timeline-title-comming-soon">
-                        Comming Soon<br />
+                        Coming Soon<br />
                     </h2>
                 </div>
             </header>
