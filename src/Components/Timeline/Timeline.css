@@ -22,3 +22,24 @@
           background-color: #ccc;
         
 }
+
+
+section[type=whats-new] .timeline-header-comming-soon {
+     -webkit-transform-origin: left top;
+     transform-origin: left top;
+   
+     /* -webkit-transform: skewY(-11.5deg); */
+     /* transform: skewY(-11.5deg);padding-top:50px; */
+ }
+
+ section[type=whats-new] .timeline-title-comming-soon {
+     font-family: Cedarville Cursive;
+    font-weight: 800;
+    color: #ffff;
+    font-size: 4.5rem;
+    /* line-height: 1.05; */
+    text-shadow: 0 0 42px #2f9d9c;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+ }

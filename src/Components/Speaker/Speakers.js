@@ -10,7 +10,7 @@ function Speakers() {
                     <div className="center">
                         <p className="section-subhead">JSCOP  2022</p>
                         <h2 className="section-title">
-                            who’s New <br />
+                            who's New <br />
                             <span>this year?</span>
                         </h2>
                     </div>
@@ -18,11 +18,13 @@ function Speakers() {
                 
                              {/*              COMING SOON            */}
 
-                {/* <section type="whats-new" in-view="fade-up" className="in-view"> */}
+                <section type="whats-new" in-view="fade-up" className="in-view">
                 <header className="section-header-comming-soon">
+                    <div className="center">
                         <h2 className="section-title-comming-soon">
-                            Coming Soon<br />
+                            Comming Soon<br />
                         </h2>
+                    </div>
                 </header>
 
                             {/*              COMING SOON            */}
@@ -56,8 +58,9 @@ function Speakers() {
                                 <p className="post-subtitle"> </p>
                             </div>
                         </div>
-                    </div> */}
-                {/* </section> */}
+                    </div> 
+                </section>*/}
+            </section>
             </section>
         </div>
         );

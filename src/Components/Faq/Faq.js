@@ -63,33 +63,29 @@ function Faq() {
 const data = [
   {
     question: 'What is JSCOP?',
-    Answer:
-
-          'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming competitions to fun ideathons, trivia quizzes, webinars and a lot more. It also includes mentoring sessions that gives students a wide platform to interact, connect and innovate.'
+    Answer: 'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming competitions to fun ideathons, trivia quizzes, webinars and a lot more. It also includes mentoring sessions that gives students a wide platform to interact, connect and innovate.'
   },
   {
     question: 'How to Register?',
-    Answer:
-
-          'The registration can be done on the official JSCOP website'
+    Answer: 'The registration can be done on the official JSCOP website'
   },
   {
     question: 'What is the Eligibility Criteria?',
     Answer:
-
           'Anyone can register. We welcome everyone on the ride to multiverse packed with fun quizzes, cp events, ideathons and webinars.'
   },
   {
+    question: 'Will the Event Be Virtual, Offline or Hybrid Mode?',
+    Answer: 'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events in the offline mode at our college .'
+  },
+  {
     question: 'Will the event be VIRTUAL,OFFLINE or HYBRID mode?',
-    Answer:
-
-          'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events  in the offline mode at our college .'
+    Answer: 'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events  in the offline mode at our college .'
 
   },
   {
     question: 'What is the Event Venue?',
-    Answer:
-          'The offline events of JSCOP 4.0 will be conducted at our college Jaypee Institute of Information Technology.'
+    Answer: 'The offline events of JSCOP 4.0 will be conducted at our college Jaypee Institute of Information Technology.'
           
 
   },

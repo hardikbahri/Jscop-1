@@ -5,18 +5,28 @@ import logo from './logo-white.png'
 
 import { FaYoutube ,FaInstagram, FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
 
+// import { FaYoutube , FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+
 function Footer() {
   return (
     <div className="Footer" id="contactus">
         <footer>
         <div className="footer-content">
             <div className="footer-content-left">
-            <img src={logo} alt="logo" className="logo-footer" />
+                <h3>JSCOP</h3>
+                <p className="footer-content-left-header">
+                    It is the annual flagship event of JIIT OPTICA which includes a 
+                    plethora of events ranging from programming competitions to fun ideathons, 
+                    trivia quizzes, webinars and a lot more. It also includes mentoring sessions 
+                    that gives students a wide platform to interact, connect and innovate.
+                </p>
+                <br />
+                <img src={logo} alt="logo" className="logo-footer" />
                 <div className="footer-content-left-socials">
-                    <br />
-                    <p>
+                    
+                    {/* <p>
                         Connect with us on:
-                    </p>
+                    </p> */}
                     <ul className="footer-socials">
                         <li><a href="https://www.facebook.com/jiitopticachapter"> <FaFacebook size = "1.5rem" /> </a></li>
                         <li><a href="https://www.youtube.com/channel/UCDR-ExLpXmcMkT0RHILMKPw/featured"> <FaYoutube size = "1.5rem" /> </a></li>

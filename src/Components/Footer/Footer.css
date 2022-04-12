@@ -19,8 +19,8 @@ footer{
     color: #fff;
 }
 .logo-footer{
-    width:45%;
-    margin-left:27%;
+    width:35%;
+    margin-left:34%;
     margin-bottom:5%;
 }
 @media(max-width:1080px){
@@ -51,6 +51,14 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+}
+
+.footer-content-left {
+    width: 50%;
+}
+
+.footer-content-right {
+    width: 50%;
     flex-wrap: wrap;
 }
 
@@ -86,6 +94,8 @@ footer{
 .footer-socials {
     display: flex;
     flex-direction: row;
+    margin-left: 2%;
+    margin-bottom: 50px;
     /* justify-content: space-around; */
     list-style: none;
     justify-content: center;
