@@ -10,7 +10,7 @@ function Footer() {
         <footer>
         <div className="footer-content">
             <div className="footer-content-left">
-                <h3>JSCOP 4.0</h3>
+                <h3>JSCOP</h3>
                 <p className="footer-content-left-header">
                     It is the annual flagship event of JIIT OPTICA which includes a 
                     plethora of events ranging from programming competitions to fun ideathons, 

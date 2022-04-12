@@ -29,12 +29,13 @@ function Yearwise(props) {
 
 					<div class="gallery__column">
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio" class="gallery__image" />
+								<img src="2019-1.jpeg" alt="2019-1" class="gallery__image" width="50px" height="340px"/>
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi" class="gallery__image" />	</figure>
+								<img src="2019-2.jpeg" alt="2019-1" class="gallery__image" width="50px" height="340px"/>	
+							</figure>
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" class="gallery__image" />
+								<img src="2019-10.jpeg" alt="2019-2" class="gallery__image" width="50px" height="560px" />
 							</figure>
 					</div>
 

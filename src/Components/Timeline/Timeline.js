@@ -22,7 +22,18 @@ function Timeline() {
           </div>
         </div>
       </header>
-      <VerticalTimeline>
+
+                            {/*              COMING SOON            */}
+        <section type="whats-new" in-view="fade-up" className="in-view">
+            <header className="timiline-header-comming-soon">
+                <div className="center">
+                    <h2 className="timeline-title-comming-soon">
+                        Comming Soon<br />
+                    </h2>
+                </div>
+            </header>
+
+      {/* <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2011 - present"
@@ -113,7 +124,11 @@ function Timeline() {
           </h4>
           <p>Creative Direction, Visual Design</p>
         </VerticalTimelineElement>
-      </VerticalTimeline>
+      </VerticalTimeline> */}
+
+                            {/*              COMING SOON            */}
+
+    </section>  
     </div>
   );
 }
