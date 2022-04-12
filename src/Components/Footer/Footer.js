@@ -1,12 +1,15 @@
 // import 'font-awesome/css/font-awesome.min.css'; 
 import React from "react";
 import "./Footer.css";
+import logo from './logo-white.png'
 
-import { FaYoutube , FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+import { FaYoutube ,FaInstagram, FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+
+// import { FaYoutube , FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer" id="contactus">
         <footer>
         <div className="footer-content">
             <div className="footer-content-left">
@@ -17,16 +20,19 @@ function Footer() {
                     trivia quizzes, webinars and a lot more. It also includes mentoring sessions 
                     that gives students a wide platform to interact, connect and innovate.
                 </p>
+                <br />
+                <img src={logo} alt="logo" className="logo-footer" />
                 <div className="footer-content-left-socials">
-                    <br />
-                    <p>
+                    
+                    {/* <p>
                         Connect with us on:
-                    </p>
+                    </p> */}
                     <ul className="footer-socials">
                         <li><a href="https://www.facebook.com/jiitopticachapter"> <FaFacebook size = "1.5rem" /> </a></li>
                         <li><a href="https://www.youtube.com/channel/UCDR-ExLpXmcMkT0RHILMKPw/featured"> <FaYoutube size = "1.5rem" /> </a></li>
                         <li><a href="https://www.linkedin.com/company/jiitopticachapter"> <FaLinkedin size = "1.5rem" /> </a></li>
                         <li><a href="https://twitter.com/jiitoptica"> <FaTwitter size = "1.5rem" /> </a></li>
+                        <li><a href="https://www.instagram.com/jiitopticachapter/"> <FaInstagram size = "1.5rem" /> </a></li>
                     </ul>
                 </div>
             </div>

@@ -24,6 +24,14 @@
   /* padding: 0 5%; */
 }
 
+.Team .section-title{
+  transform: skewY(-11.5deg);
+  font-size: 4rem !important;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    margin-bottom:105px;
+}
+
 .Team .profile-box {
   background: #FFFFFF;
   box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);

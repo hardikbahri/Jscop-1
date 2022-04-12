@@ -52,14 +52,14 @@ function Navbar() {
               Gallery
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
               href="/sponsor"
             >
            Sponsors
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"

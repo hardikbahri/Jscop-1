@@ -17,7 +17,7 @@
           -moz-filter: blur(5px);
           -o-filter: blur(5px);
           -ms-filter: blur(5px);
-          filter: blur(5px);
+          filter: blur(10px);
          
           background-color: #ccc;
         
@@ -33,12 +33,13 @@ section[type=whats-new] .timeline-header-comming-soon {
  }
 
  section[type=whats-new] .timeline-title-comming-soon {
-     font-family: California,Times,Georgia,serif;
-     font-weight: 500;
-     color: #fff;
-     font-size: 5.5rem;
-     line-height: 1.05;
-     display: flex;
-     justify-content: center;
-     /* text-shadow: 0 0 42px #2f9d9c; */
+     font-family: Cedarville Cursive;
+    font-weight: 800;
+    color: #ffff;
+    font-size: 4.5rem;
+    /* line-height: 1.05; */
+    text-shadow: 0 0 42px #2f9d9c;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
  }

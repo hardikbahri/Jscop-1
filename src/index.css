@@ -24,6 +24,12 @@ code {
    url("./fonts/California.ttf") format("truetype");
   font-weight: bold;
   }
+  @font-face {
+    font-family: "Cedarville Cursive";
+    src: local("Cedarville Cursive"),
+     url("./fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf") format("truetype");
+    font-weight: bold;
+    }
   
   .firefly {
     position: fixed;

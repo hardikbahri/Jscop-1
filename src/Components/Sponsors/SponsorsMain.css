@@ -73,3 +73,11 @@
       transform: translateX(-200%);
     }
   }
+
+  .SponsorsMain .section-title{
+    transform: skewY(-11.5deg);
+  font-size: 4rem !important;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    margin-bottom:105px;
+  }

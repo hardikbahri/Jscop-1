@@ -27,7 +27,7 @@ function App() {
           <Route path='#Timeline' exact component={Timeline} />
           <Route path='#Team' exact component={Team} />
           <Route path='/Gallery' exact> <Gallery /> </Route>
-          <Route path='#Footer' exact component={Footer} />
+          <Route path='#contactus' exact component={Footer} />
         </Switch>
       </Router>
     </div>
