@@ -22,7 +22,7 @@ function Speakers() {
                 <header className="section-header-comming-soon">
                     <div className="center">
                         <h2 className="section-title-comming-soon">
-                            Comming Soon<br />
+                            Coming Soon<br />
                         </h2>
                     </div>
                 </header>
