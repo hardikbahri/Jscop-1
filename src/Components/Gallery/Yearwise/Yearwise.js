@@ -29,50 +29,47 @@ function Yearwise(props) {
 
 					<div class="gallery__column">
 							<figure class="gallery__thumb">
-								<img src="2019-1.jpeg" alt="2019-1" class="gallery__image" width="50px" height="340px"/>
+								<img src="2019-1.jpeg" alt="2019-1" class="gallery__image" />
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="2019-2.jpeg" alt="2019-1" class="gallery__image" width="50px" height="340px"/>	
+								<img src="2019-2.jpeg" alt="2019-1" class="gallery__image" />	
+							</figure>
+							
+							
+					</div>
+
+					<div class="gallery__column">
+							<figure class="gallery__thumb">
+								<img src="2019-3.jpeg" alt="Portrait by Noah Buscher" class="gallery__image" />
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="2019-10.jpeg" alt="2019-2" class="gallery__image" width="50px" height="560px" />
+								<img src="2019-4.jpeg" alt="Portrait by Ivana Cajina" class="gallery__image" />
+							</figure>
+							<figure class="gallery__thumb">
+								<img src="2019-5.jpeg" alt="Portrait by Sam Burriss" class="gallery__image" />
 							</figure>
 					</div>
 
 					<div class="gallery__column">
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" class="gallery__image" />
+								<img src="2019-6.jpeg" alt="Portrait by Mari Lezhava" class="gallery__image" />
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" class="gallery__image" />
+								<img src="2019-7.jpeg" alt="Portrait by Ethan Haddox" class="gallery__image" />
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" class="gallery__image" />
+								<img src="2019-8.jpeg" alt="Portrait by Amir Geshani" class="gallery__image" />
 							</figure>
 					</div>
 
 					<div class="gallery__column">
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" class="gallery__image" />
+								<img src="2019-9.jpeg" alt="Portrait by Guilian Fremaux" class="gallery__image" />
 							</figure>
 							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" class="gallery__image" />
+								<img src="2019-10.jpeg" alt="2019-2" class="gallery__image" />
 							</figure>
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" class="gallery__image" />
-							</figure>
-					</div>
-
-					<div class="gallery__column">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" class="gallery__image" />
-							</figure>
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" class="gallery__image" />
-							</figure>
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" class="gallery__image" />
-							</figure>
+							
 
 					</div>
 				</div>
